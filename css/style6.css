@@ -7,11 +7,49 @@
 }
 
 body  {
-	background: #95a5a6;
+	/* Note: This gradient may render differently in browsers that don't support the unprefixed gradient syntax */
+
+/* IE10 Consumer Preview */
+background-image: -ms-linear-gradient(top left, #4CCAFF 0%, #0091CE 100%);
+
+/* Mozilla Firefox */
+background-image: -moz-linear-gradient(top left, #4CCAFF 0%, #0091CE 100%);
+
+/* Opera */
+background-image: -o-linear-gradient(top left, #4CCAFF 0%, #0091CE 100%);
+
+/* Webkit (Safari/Chrome 10) */
+background-image: -webkit-gradient(linear, left top, right bottom, color-stop(, #4CCAFF), color-stop(1, #0091CE));
+
+/* Webkit (Chrome 11+) */
+background-image: -webkit-linear-gradient(top left, #4CCAFF 0%, #0091CE 100%);
+
+/* W3C Markup, IE10 Release Preview */
+background-image: linear-gradient(to bottom right, #4CCAFF 0%, #0091CE 100%);
+}
+
+
+
+.logoty {
+
+  width: 400px;
+  max-width:100%;
+  margin: 10px;
+
+
+
+
+}
+
+#wrapper{
+  height: 300px;
+  z-index: 10;
+
 }
 
 .container {
-	padding: 80px;
+	padding: 0px;
+  max-width: 100%;
 }
 
 .bt-menu-trigger-out {
@@ -22,15 +60,18 @@ body  {
 	border: 4px solid #fff;
 	margin: 40px auto 0px auto;
 	cursor: pointer;
+  z-index: 30;
 }
 
 .bt-menu-trigger-out span {
 	font-size: 3em;
 	line-height: 155px;
+  z-index: 30;
 }
 
 .bt-menu-trigger-out:focus span {
 	opacity: 1;
+  z-index: 30;
 }
 
 .bt-menu {
@@ -46,6 +87,7 @@ body  {
 	-webkit-backface-visibility: hidden;
 	-webkit-transition: border-width 0.3s, background-color 0.3s, height 0s 0.3s;
 	transition: border-width 0.3s, background-color 0.3s, height 0s 0.3s;
+  z-index: 30;
 }
 
 .bt-menu.bt-menu-open {
@@ -54,6 +96,7 @@ body  {
 	background-color: rgba(255,255,255,0.9);
 	-webkit-transition: border-width 0.3s, background-color 0.3s;
 	transition: border-width 0.3s, background-color 0.3s;
+  z-index: 30;
 }
 
 .bt-overlay {
@@ -63,6 +106,7 @@ body  {
 
 .bt-menu-open .bt-overlay {
 	height: 100%;
+  z-index: 30;
 }
 
 .bt-overlay:after {
@@ -111,7 +155,8 @@ body  {
 
 .bt-menu-open .bt-menu-trigger {
 	-webkit-transform: translate3d(0,0,0);
-	transform: translate3d(0,0,0);	
+	transform: translate3d(0,0,0);
+  z-index: 30;
 }
 
 .bt-menu-trigger span {
@@ -128,6 +173,7 @@ body  {
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
+  z-index: 30;
 }
 
 .bt-menu-trigger span:before,
@@ -214,6 +260,7 @@ body  {
 	outline: none;
 	color: #687374;
 	padding: 0 30px;
+  z-index: 30;
 }
 
 .bt-menu ul.bt-menu-top li a:hover,
@@ -223,6 +270,7 @@ body  {
 
 .bt-menu ul.bt-menu-top li a:before {
 	font-size: 36px;
+  z-index: 30;
 }
 
 /* Bottom Menu */
@@ -326,18 +374,49 @@ body  {
 	transition-delay: 0.4s;
 }
 
+footer{
+
+  /* Note: This gradient may render differently in browsers that don't support the unprefixed gradient syntax */
+
+/* IE10 Consumer Preview */
+background-image: -ms-linear-gradient(bottom right, #007AAD 0%, #4DCAFF 100%);
+
+/* Mozilla Firefox */
+background-image: -moz-linear-gradient(bottom right, #007AAD 0%, #4DCAFF 100%);
+
+/* Opera */
+background-image: -o-linear-gradient(bottom right, #007AAD 0%, #4DCAFF 100%);
+
+/* Webkit (Safari/Chrome 10) */
+background-image: -webkit-gradient(linear, right bottom, left top, color-stop(0, #007AAD), color-stop(1, #4DCAFF));
+
+/* Webkit (Chrome 11+) */
+background-image: -webkit-linear-gradient(bottom right, #007AAD 0%, #4DCAFF 100%);
+
+/* W3C Markup, IE10 Release Preview */
+background-image: linear-gradient(to top left, #007AAD 0%, #4DCAFF 100%);
+
+
+
+  width: 100%;
+  height: 300px;
+
+
+}
+
 /* Media Queries */
 @media screen and (max-width: 44em) {
 	.bt-overlay:after {
 		font-size: 2em;
 	}
 }
- 
+
 @media screen and (max-width: 39.125em) {
 	.bt-menu ul.bt-menu-top {
 		left: 20px;
 		-webkit-transform: translateX(0);
 		transform: translateX(0);
+
 	}
 
 	.bt-menu ul.bt-menu-top li a {
