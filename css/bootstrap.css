@@ -309,10 +309,16 @@ img {
 }
 .img-responsive {
   display: block;
-  max-width: 90%;
+  max-width: 80%;
   height: auto;
-  margin-left: 40px;
 }
+
+.logoh1 {
+
+  align: center;
+  margin: 35px 0px 20px 90px;
+}
+
 .img-rounded {
   border-radius: 6px;
 }
@@ -1086,6 +1092,7 @@ pre code {
 @media (min-width: 992px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
+
   }
   .col-md-12 {
     width: 100%;
@@ -1247,7 +1254,6 @@ pre code {
   }
   .col-lg-12 {
     width: 100%;
-    z-index: 200;
   }
   .col-lg-11 {
     width: 91.66666666666666%;
@@ -1392,7 +1398,6 @@ pre code {
   }
   .col-lg-offset-2 {
     margin-left: 16.666666666666664%;
-    z-index: 5;
   }
   .col-lg-offset-1 {
     margin-left: 8.333333333333332%;
@@ -2015,7 +2020,7 @@ select[multiple].input-lg {
 }
 .btn:hover,
 .btn:focus {
-  color: red;
+  color: #333;
   text-decoration: none;
 }
 .btn:active,
@@ -3475,7 +3480,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li > a:focus {
   text-decoration: none;
   background-color: #eee;
-  height:100%;
 }
 .nav > li.disabled > a {
   color: #999;
@@ -3511,7 +3515,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .nav-tabs > li > a {
   margin-right: 2px;
-  margin-top: 5px;
   line-height: 1.428571429;
   border: 1px solid transparent;
   border-radius: 4px 4px 0 0;
@@ -3668,7 +3671,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-collapse {
-  max-height: 100%;
+  max-height: 340px;
   padding-right: 15px;
   padding-left: 15px;
   overflow-x: visible;
@@ -4413,11 +4416,8 @@ a.list-group-item.active > .badge,
   padding: 4px;
   margin-bottom: 20px;
   line-height: 1.428571429;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  -webkit-transition: all .2s ease-in-out;
-          transition: all .2s ease-in-out;
+
+  
 }
 .thumbnail > img,
 .thumbnail a > img {
@@ -4430,7 +4430,7 @@ a.list-group-item.active > .badge,
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-  border-color: #428bca;
+
 }
 .thumbnail .caption {
   padding: 9px;

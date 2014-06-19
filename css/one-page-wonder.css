@@ -1,0 +1,384 @@
+body {
+	margin: 50px 0 0 0; /* 50px is the height of the navbar - change this if the navbarn height changes */
+	background: black;
+}
+
+.header-image {
+	/*
+	background: url(http://www.youtube.com/embed/Xxus7tBHxtc?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1&amp;html5=1&amp;allowfullscreen=true&amp;wmode=transparent);/* Use a tiling background image or a full width image - if you're using full width you will need to change no-repeat center center cover
+	*/
+
+
+	background-position: top;
+	height: auto;
+	display: block;
+	width: 100%;
+	text-align: center;
+
+
+
+
+}
+
+.headline {
+	padding: 0px 0;
+
+}
+
+.headline > .container > h1 {
+	font-size: 130px;
+	background: #ffffff;
+	background: rgba(255, 255, 255, 0.9);
+}
+
+.headline > .container > h2{
+
+	font-family: 'Passion One', cursive;
+	font-size: 5em;
+	margin: 60px;
+	text-align: center;
+	color: #00445E;
+
+}
+
+.headline > .row > .container  h5 {
+	font-size: 55px;
+	font-family: 'Shadows Into Light', cursive;
+	padding: 10px;
+
+	background: rgba(255, 255, 255, 0.9);
+	margin-bottom: 80px;
+}
+
+.featurette-divider {
+	margin: 80px 0;
+}
+.featurette {
+	overflow: hidden;
+}
+
+.featurette-image.pull-left {
+	margin-right: 40px;
+}
+.featurette-image.pull-right {
+	margin-left: 40px;
+}
+
+.featurette-heading {
+	font-size: 50px;
+}
+
+footer {
+	margin: 50px 0;
+
+}
+
+.fooot{
+	background-color: #000;
+}
+
+/* RESPONSIVE CSS */
+
+@media (max-width: 1800px) {
+
+		.headline > .row > .container>  h5 {align: center;  width: 80%; font-size: 63px;}
+
+}
+
+
+@media (max-width: 1200px) {
+
+.headline > .container > h1 {font-size: 140px;}
+.headline > .row > .container> h5 {align: center; width: 100%; font-size: 63px;}
+.headline > .container > {width: 50%;}
+.featurette-divider {margin: 50px 0;}
+
+.featurette-heading {font-size: 35px;}
+
+}
+
+@media (max-width: 991px) {
+
+.headline > .container > h1 {font-size: 105px;}
+.headline > .row > .container> h5 {align: center;  width: 100%; font-size: 50px;}
+.featurette-divider {margin: 40px 0;}
+.featurette-image {max-width: 50%;}
+
+.featurette-heading {font-size: 30px;}
+
+}
+
+@media (max-width: 768px) {
+
+.container {margin: 0 15px;}
+.featurette-divider {margin: 40px 0;}
+.featurette-heading {font-size: 25px;}
+
+}
+
+
+@media (max-width: 668px) {
+
+.headline > .container > h1 {font-size: 70px;}
+.headline > .row > .container> h5 {align: center; width: 100%; font-size: 32px;}
+.featurette-divider {margin: 30px 0;}
+
+}
+
+@media (max-width: 640px) {
+
+.headline {padding: 75px 0 25px 0;}
+.headline > .container > h1 {font-size: 60px;}
+.headline > .row > .container >  h5 {align: center; width: 80%; font-size: 25px;}
+
+}
+
+@media (max-width: 375px) {
+
+.featurette-divider {margin: 10px 0;}
+.featurette-image {max-width: 100%;}
+
+
+}
+
+
+/*
+
+@media (max-width: 1800px) {
+
+		.headline > .row > .container>  h5 {align: center;  width: 80%; font-size: 63px;}
+
+}
+
+
+@media (max-width: 1200px) {
+
+.headline > .container > h1 {font-size: 140px;}
+.headline > .row > .container> h5 {align: center; width: 100%; font-size: 63px;}
+.headline > .container > {width: 50%;}
+.featurette-divider {margin: 50px 0;}
+.featurette-image.pull-left {margin-right: 20px;}
+.featurette-image.pull-right {margin-left: 20px;}
+.featurette-heading {font-size: 35px;}
+
+}
+
+@media (max-width: 991px) {
+
+.headline > .container > h1 {font-size: 105px;}
+.headline > .row > .container> h5 {align: center;  width: 100%; font-size: 50px;}
+.featurette-divider {margin: 40px 0;}
+.featurette-image {max-width: 50%;}
+.featurette-image.pull-left {margin-right: 10px;}
+.featurette-image.pull-right {margin-left: 10px;}
+.featurette-heading {font-size: 30px;}
+
+}
+
+@media (max-width: 768px) {
+
+.container {margin: 0 15px;}
+.featurette-divider {margin: 40px 0;}
+.featurette-heading {font-size: 25px;}
+
+}
+
+
+@media (max-width: 668px) {
+
+.headline > .container > h1 {font-size: 70px;}
+.headline > .row > .container> h5 {align: center; width: 100%; font-size: 32px;}
+.featurette-divider {margin: 30px 0;}
+
+}
+
+@media (max-width: 640px) {
+
+.headline {padding: 75px 0 25px 0;}
+.headline > .container > h1 {font-size: 60px;}
+.headline > .row > .container >  h5 {align: center; width: 80%; font-size: 25px;}
+
+}
+
+@media (max-width: 375px) {
+
+.featurette-divider {margin: 10px 0;}
+.featurette-image {max-width: 100%;}
+.featurette-image.pull-left {margin-right: 0; margin-bottom: 10px;}
+.featurette-image.pull-right {margin-left: 0; margin-bottom: 10px;}
+
+}
+
+*/
+
+/* carousel */
+.media-carousel
+{
+  margin-bottom: 0;
+  padding: 0 40px 30px 40px;
+  margin-top: 30px;
+}
+/* Previous button  */
+.media-carousel .carousel-control.left
+{
+  left: -12px;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 30px
+}
+/* Next button  */
+.media-carousel .carousel-control.right
+{
+  right: -12px !important;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 30px
+}
+/* Changes the position of the indicators */
+.media-carousel .carousel-indicators
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.media-carousel .carousel-indicators li
+{
+  background: #c0c0c0;
+}
+.media-carousel .carousel-indicators .active
+{
+  background: #333333;
+}
+.media-carousel img
+{
+
+}
+/* End carousel */
+
+.partners{
+
+	width: 100%;
+	background-color: #F2F7F0;
+	margin:  100px 0 100px 0 ;
+}
+
+.partners h3{
+	font-family: 'Passion One', cursive;
+	font-size: 5em;
+}
+
+
+
+.business-header h2{
+
+	font-family: 'Passion One', cursive;
+	font-size: 4.5em;
+	margin: 40px 0;
+
+
+}
+
+.contas h2{
+	font-family: 'Passion One', cursive;
+	font-size: 3em;
+	margin: 40px 0;
+}
+
+.contas p{
+	font-family: 'Asap', sans-serif;
+	font-size: 1.8em;
+	margin: 0 0 60px 0;
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#video-background {
+		margin:0;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    z-index: -100;
+}
+
+.fond3{
+	background: #F2F7F0;
+	margin: 0;
+	padding: 0;
+}
+
+.fond6{
+	background-color: #F2F7F0;
+	padding: 2.25em 1.6875em;
+  background-image: -webkit-repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
+  background-image: -moz-repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
+  background-image: -ms-repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
+  background-image: repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
+  -webkit-background-size: 3px 3px;
+  -moz-background-size: 3px 3px;
+  background-size: 3px 3px;
+}
+
+.tenm em{
+	margin-bottom: 100px;
+}
+
+
+
+.servtxt h2 {
+	text-align:center;
+
+}
+
+.servtxt p {
+	text-align:center;
+
+}
+
+.servtxt img{
+display:block;
+margin:auto;
+}
+
+.folter{
+	background-color: #00445E;
+	padding: 2.25em 1.6875em;
+  background-image: -webkit-repeating-linear-gradient(135deg, rgba(0,52,72,.9), rgba(0,52,72,.9) 1px, transparent 2px, transparent 2px, rgba(0,52,72,.9) 3px);
+  background-image: -moz-repeating-linear-gradient(135deg, rgba(0,52,72,.9), rgba(0,52,72,.9) 1px, transparent 2px, transparent 2px, rgba(0,52,72,.9) 3px);
+  background-image: -o-repeating-linear-gradient(135deg, rgba(0,52,72,.9), rgba(0,52,72,.9) 1px, transparent 2px, transparent 2px, rgba(0,52,72,.9) 3px);
+  background-image: repeating-linear-gradient(135deg, rgba(0,52,72,.9), rgba(0,52,72,.9) 1px, transparent 2px, transparent 2px, rgba(0,52,72,.9) 3px);
+  -webkit-background-size: 4px 4px;
+  -moz-background-size: 4px 4px;
+  background-size: 4px 4px;
+}
+
+.folter h2{
+	font-size: 2.5em;
+	color: #ED9E46;
+	font-family: 'Passion One', cursive;
+	letter-spacing: 0.1em;
+}
+
+.folter address{
+	color: #45AFDC;
+	font-size:1.8em;
+	font-family: 'Passion One', cursive;
+	letter-spacing: 0.1em;
+}
