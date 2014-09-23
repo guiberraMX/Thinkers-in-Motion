@@ -309,16 +309,9 @@ img {
 }
 .img-responsive {
   display: block;
-  max-width: 80%;
+  max-width: 100%;
   height: auto;
 }
-
-.logoh1 {
-
-  align: center;
-  margin: 35px 0px 20px 90px;
-}
-
 .img-rounded {
   border-radius: 6px;
 }
@@ -1092,7 +1085,6 @@ pre code {
 @media (min-width: 992px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
-
   }
   .col-md-12 {
     width: 100%;
@@ -4416,8 +4408,11 @@ a.list-group-item.active > .badge,
   padding: 4px;
   margin-bottom: 20px;
   line-height: 1.428571429;
-
-  
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out;
 }
 .thumbnail > img,
 .thumbnail a > img {
@@ -4430,7 +4425,7 @@ a.list-group-item.active > .badge,
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-
+  border-color: #428bca;
 }
 .thumbnail .caption {
   padding: 9px;
