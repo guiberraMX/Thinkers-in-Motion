@@ -10,7 +10,7 @@
 
 
 .thinkers{
-    margin:50px;
+    margin:150px;
 }
 
 
@@ -154,7 +154,7 @@ a:focus {
     display: table;
     width: 100%;
     height: auto;
-    padding: 100px 0;
+    padding: 100px 0px;
     text-align: center;
     color: #fff;
     background: url(../img/bg.png) no-repeat bottom center scroll;
@@ -170,6 +170,7 @@ a:focus {
 .intro-body {
     display: table-cell;
     vertical-align: top;
+
 }
 
 .brand-heading {
@@ -184,6 +185,10 @@ a:focus {
     .intro {
         height: 100%;
         padding: 0;
+    }
+
+    .intro-body {
+        vertical-align: top;
     }
 
     .brand-heading {
