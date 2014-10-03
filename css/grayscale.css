@@ -9,7 +9,9 @@
 }
 
 
-
+.thinkers{
+    margin:50px;
+}
 
 
 
@@ -161,11 +163,13 @@ a:focus {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    background-attachment: fixed;
+
 }
 
 .intro-body {
     display: table-cell;
-    vertical-align: middle;
+    vertical-align: top;
 }
 
 .brand-heading {
