@@ -25,6 +25,34 @@
     font-size: 2em;
 }
 
+.color-yt{
+    color: #BB0000;
+}
+
+.color-fb{
+    color: #3B5998;
+}
+
+.color-tw{
+    color: #00ACED;
+}
+
+.color-fs{
+    color: #F94877;
+   }
+
+.color-v{
+    color: #00A478;
+}
+
+.color-vim{
+    color: #009ADA;
+}
+
+.color-ins{
+    color: #3F729B;
+
+}
 
 
 body {
@@ -362,6 +390,10 @@ a:focus {
 
 .step{
     font-size: 3em;
+}
+
+.page-top{
+    margin-top: 0px;
 }
 
 
