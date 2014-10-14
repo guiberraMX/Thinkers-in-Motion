@@ -27,36 +27,49 @@
 
 .color-yt{
     color: #BB0000;
+    
+    text-shadow: 1px 1px 55px #fff;
+
 }
 
 .color-fb{
     color: #3B5998;
+    text-shadow: 1px 1px 55px #fff;
 }
 
 .color-tw{
     color: #00ACED;
+    text-shadow: 1px 1px 55px #fff;
 }
 
 .color-fs{
     color: #F94877;
+    text-shadow: 1px 1px 55px #fff;
    }
 
 .color-v{
     color: #00A478;
+    text-shadow: 1px 1px 55px #fff;
 }
 
 .color-vim{
     color: #009ADA;
+    text-shadow: 1px 1px 55px #fff;
 }
 
 .color-ins{
     color: #3F729B;
+    text-shadow: 1px 1px 55px #fff;
 
 }
 
 .color-g{
     color: #DD4B39;
+    text-shadow: 1px 1px 55px #fff;
 }
+
+
+
 
 
 body {
