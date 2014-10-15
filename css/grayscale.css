@@ -144,6 +144,11 @@
 
 }
 
+.lin4{
+    
+    border: 0; border-top: 1px solid #5D6DA8;
+}
+
 #about{
 
     width: 100%;
@@ -453,6 +458,24 @@ a:focus {
 
 }
 
+.download-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url(../img/bgg.png) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-attachment: fixed;
+    box-shadow: 0px 3px 12px #000;
+
+
+}
+
+
+
 
 @media(min-width:767px) {
     .content-section {
@@ -559,6 +582,62 @@ body {
 
 
 
-footer{
-    height: 10%;
+
+
+.fofo{
+    width: 100%;
+    
+    margin-bottom: 0px;
 }
+
+.mapita{
+    margin: 0px;
+    left: 0px;
+    
+        padding:0px;
+    
+
+   }
+
+.cosaw{
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    background-color: #1C1B1B;
+    margin-bottom: 0px;
+   
+}
+
+
+.fofo h2{
+    text-align: center;
+    font-size: 3em;
+    color:#5D6DA8;
+}
+
+
+
+
+
+
+
+.ffbb{
+    margin-top: 30px;
+}
+
+
+.fotin{
+    font-size: 1.1em;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
