@@ -70,9 +70,23 @@
 
 
 #about h2{
-    color:#5D6DA8;
+    color:#E0A922;
+    font-size: 3em;
+
 }
 
+
+.plaier{
+    width: 100%;
+    background-color: black;
+    border: solid 10px black;
+}
+
+
+#contact{
+    box-shadow: 0px -1px 12px #000;
+
+}
 
 
 body {
@@ -100,6 +114,7 @@ h6 {
     font-family: satellite;
     font-weight: 700;
     letter-spacing: 1px;
+
 }
 
 p {
@@ -212,8 +227,11 @@ a:focus {
     background-size: cover;
     -o-background-size: cover;
     background-attachment: fixed;
+    box-shadow: 0px 3px 12px #000;
 
 }
+
+
 
 .intro-body {
     display: table-cell;
@@ -337,6 +355,8 @@ a:focus {
     background-size: cover;
     -o-background-size: cover;
     background-attachment: fixed;
+    box-shadow: 0px 3px 12px #000;
+
 
 }
 
