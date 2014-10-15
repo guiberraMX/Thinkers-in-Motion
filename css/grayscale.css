@@ -32,8 +32,21 @@
 
 }
 
+.color-yt:hover {
+    color: #D9291D;
+
+    text-shadow: 1px 1px 55px #fff;
+}
+
+
 .color-fb{
     color: #3B5998;
+    text-shadow: 1px 1px 55px #fff;
+}
+
+.color-fb:hover {
+    color: #496EBD;
+
     text-shadow: 1px 1px 55px #fff;
 }
 
@@ -42,20 +55,52 @@
     text-shadow: 1px 1px 55px #fff;
 }
 
+.color-tw:hover {
+    color: #00CFFF;
+
+    text-shadow: 1px 1px 55px #fff;
+}
+
 .color-fs{
     color: #F94877;
     text-shadow: 1px 1px 55px #fff;
    }
+
+   .color-fs:hover {
+    color: #F95F88;
+
+    text-shadow: 1px 1px 55px #fff;
+}
+
+
 
 .color-v{
     color: #00A478;
     text-shadow: 1px 1px 55px #fff;
 }
 
+.color-v:hover {
+    color: #00D69D;
+
+    text-shadow: 1px 1px 55px #fff;
+}
+
+
+
+
+
 .color-vim{
     color: #009ADA;
     text-shadow: 1px 1px 55px #fff;
 }
+
+.color-vim:hover {
+    color: #00B4FF;
+
+    text-shadow: 1px 1px 55px #fff;
+}
+
+
 
 .color-ins{
     color: #3F729B;
@@ -63,8 +108,22 @@
 
 }
 
+.color-ins:hover {
+    color: #4E8DBF;
+
+    text-shadow: 1px 1px 55px #fff;
+}
+
+
+
 .color-g{
     color: #DD4B39;
+    text-shadow: 1px 1px 55px #fff;
+}
+
+.color-g:hover {
+    color: #FF624F;
+
     text-shadow: 1px 1px 55px #fff;
 }
 
