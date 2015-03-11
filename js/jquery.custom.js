@@ -49,9 +49,9 @@
 		var ut_word_rotator = function() {
                 
 			var ut_rotator_words = [
-				'We are <span>Brooklyn </span>',
-				'We love to <span>Design</span>',
-				'We love <span>Coding</span>'
+				'Creativos en <span>movimiento</span>',
+				'Expertos en <span>Social Media</span>',
+				'Producción de <span>videomarketing</span>'
 			] ,
 			counter = 0;                
 			

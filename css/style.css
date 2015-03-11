@@ -150,7 +150,7 @@ img {
 	-moz-transition: all 0.5s;
 	transition: all 0.5s;
 	background:rgb(255, 255, 255);
-	background:rgba(255, 255, 255, 0.95);
+	background:rgba(30, 30, 30, 0.95);
 	box-shadow:0 1px 10px rgba(31, 50, 63, 0.25);
 }
 .ha-header-perspective {
@@ -644,7 +644,7 @@ img {
 			backface-visibility:hidden;
 }
 .portfolio-title {
-	color:#FFFFFF;
+	color:#000;
 	margin:0;
 	font-size:15px;
 	text-transform:uppercase;
