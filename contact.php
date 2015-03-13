@@ -6,8 +6,8 @@
 |--------------------------------------------------------------------------
 */
 
-define("EMAIL" , "spam@unitedthemes.com");
-define("SUBJECT" , "You've got mail");
+define("EMAIL" , "contacto@thinkersinmotion.mx");
+define("SUBJECT" , "contacto de la web");
 
 define("NAME_MSG" , "Please insert your name");
 define("EMAIL_MSG" , "Please insert an email");
