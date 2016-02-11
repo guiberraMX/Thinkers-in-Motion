@@ -104,11 +104,22 @@ body {
 	-webkit-text-size-adjust: 100%;
 }
 
+.snow{
+	
+}
+
+
+.videomclient{
+	background-color: #000 !important;
+}
 
 
 
 
-
+.vml{
+	font-size: 3.8em !important;
+	color: red !important;
+}
 
 
 
@@ -1233,6 +1244,15 @@ img {
 }
 js .counter-box {
 	opacity:0;
+}
+
+
+.counter h3 {
+	text-align: center !important;
+}
+
+.counter span {
+	text-align: center !important;
 }
 
 /* #Client Section
