@@ -52,6 +52,11 @@ body {
 }
 /* ---------------------------------------------------------------------- PRELOADER STARTS ------------------ */
 
+
+.tp-caption img{
+	
+}
+
 #preloader {
 	background-color: #FFF;
 	width: 100%;
