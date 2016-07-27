@@ -255,6 +255,7 @@ to {
 
 /* ---------------------------------------------------------------------- TOP NAVIGATION STARTS ------------------ */
 
+
 section#navigation {
 	padding-top: 0px;
 	padding-bottom: 0px;
@@ -263,13 +264,19 @@ section#header {
 	padding-top: 0px;
 	padding-bottom: 0px;
 }
+
+.navbar{
+	background-color: #212121 !important;
+}
+
 .navbar-brand {
 	float: left;
 	font-size: 18px;
 	line-height: 20px;
-	margin-top: 26px;
-	margin-bottom: 26px;
+	margin-top: 7px;
+	margin-bottom: 7px;
 }
+
 #navigation {
 	width: 100%;
 	margin-left: auto;
