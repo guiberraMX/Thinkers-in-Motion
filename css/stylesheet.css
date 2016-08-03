@@ -274,9 +274,10 @@ section {
 	padding-bottom: 5px;
 }
 .header h2 {
-	font-family: 'Raleway', sans-serif;
-	font-size: 50px;
-	font-weight: 500;
+	font-family: 'Montserrat', sans-serif!important;
+	font-size: 66px;
+	font-weight: 900;
+	letter-spacing: -5px;
 	line-height: 1;
 	margin-bottom: 10px;
 }
@@ -459,9 +460,10 @@ section#header {
 }
 #navigation ul.nav {
 	font-family: 'Raleway', sans-serif;
-	font-size: 12px;
-	font-weight: 600;
+	font-size: 14px;
+	font-weight: 900 !important;
 	margin: 0px;
+	text-transform: uppercase;
 	padding: 0px;
 }
 #navigation ul.nav li {
@@ -824,21 +826,21 @@ section#skills {
 }
 
 @-webkit-keyframes bg-color {
-  0% { background-color: #e74c3c; }
-  20% { background-color: #f1c40f; }
-  40% { background-color: #1abc9c; }
-  60% { background-color: #3498db; }
-  80% { background-color: #9b59b6; }
-  100% { background-color: #e74c3c; }
+  0% { background-color: #ff7f11; }
+  20% { background-color: #b61b1b; }
+  40% { background-color: #ff7f11; }
+  60% { background-color: #ff7f11; }
+  80% { background-color: #cc5d25; }
+  100% { background-color: #ff7f11; }
 }
 
 @keyframes bg-color {
-  0% { background-color: #e74c3c; }
-  20% { background-color: #f1c40f; }
-  40% { background-color: #1abc9c; }
-  60% { background-color: #3498db; }
-  80% { background-color: #9b59b6; }
-  100% { background-color: #e74c3c; }
+  0% { background-color: #ff7f11; }
+  20% { background-color: #b61b1b; }
+  40% { background-color: #ff7f11; }
+  60% { background-color: #ff7f11; }
+  80% { background-color: #cc5d25; }
+  100% { background-color: #ff7f11; }
 }
 
 
