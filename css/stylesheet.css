@@ -62,7 +62,10 @@ body {
 
 
 
+.titulon h2 a{
 
+	color:#fff !important;
+}
 
 
 
@@ -745,6 +748,20 @@ section#funfacts {
 #team .contents .block .social-icons {
 	margin-top: -12px;
 	margin-bottom: 4px;
+	margin-left: -66px;
+}
+
+.socialguiberra{
+	margin-left: 0px !important;
+}
+
+.edgar2{
+	margin-left: 5px !important;
+}
+
+
+.scl{
+	padding-left: 60px !important;
 }
 #team .contents .block .social-icons ul {
 	margin-top: 30px;
@@ -753,6 +770,7 @@ section#funfacts {
 }
 #team .contents .block .social-icons ul li {
 	display: inline;
+	margin: 3px;
 }
 #team .contents .block .social-icons ul li i {
 	font-size: 16px;
@@ -1570,6 +1588,23 @@ section#quotes {
 	line-height: 1;
 	text-transform: uppercase;
 	color: #00acec;
+}
+
+.quote33{
+	font-size: 50px;
+	line-height: 45px;
+	font-weight: 600;
+}
+
+.quote33 span{
+	font-size: 66px !important;
+	color: red;
+}
+
+.name{
+	text-align: right!important;
+	margin-right: 66px !important;
+	font-size: 33px;
 }
 /* ---------------------------------------------------------------------- QUOTES ENDS ------------------ */
 
