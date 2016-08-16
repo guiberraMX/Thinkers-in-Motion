@@ -91,10 +91,13 @@ section#welcome .buttons a:hover {
 	background-color: #00acec;
 }
 #contact .address span {
-	color: #00acec;
+	color: #fff;
+	width: 900;
+	text-shadow: 2px 2px 2px #000 !important;
 }
 #contact .address a {
-	color: #00acec;
+	color: #fff;
+	text-shadow: 2px 2px 2px #000;
 }
 .btn-default {
 	background-color: #00acec!important;
@@ -186,8 +189,8 @@ section#welcome .buttons a:hover {
 	color: #00acec;
 }
 #offer ul.bullets-right li .icon {
-	background-color: #00acec;
+	
 }
 #offer ul.bullets-left li .icon {
-	background-color: #00acec;
+	
 }

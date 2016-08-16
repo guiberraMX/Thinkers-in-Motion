@@ -52,16 +52,58 @@ body {
 }
 
 
+.totopo{
+	background-color: #000 !important;
+	padding: 4px !important;
 
-
-
-.direx span{
-	font-size: 19px !important;
 }
 
 
+.topoto{
+	font-size: 1.8em !important;
+	font-family: 'Waiting for the Sunrise', cursive !important;
+	text-shadow: 2px 1px 3px #000;
+	line-height: 33px!important;
+	text-align: left !important;
 
 
+}
+
+.topoto small{
+	color: #fff !important;
+}
+
+
+.qpedo {
+	color: #fff !important;
+}
+
+.direx span{
+	font-size: 25px !important;
+	letter-spacing: -2px !important;
+
+}
+
+.direx {
+	text-shadow: 2px 2px 2px #000 !important;
+}
+
+
+.colorboutique {
+	color : #8bc34a !important;
+}
+
+.coloreventos {
+	color : #754991 !important;
+}
+
+.colorproduc{
+	color: #83bcff !important;
+}
+
+.colordigital{
+	color: #ffba08 !important;
+}
 .titulon h2 a{
 
 	color:#fff !important;
@@ -70,9 +112,27 @@ body {
 
 
 
+.iconote{
+	margin-bottom: 19px !important;
+}
 
 
+.bici{
+	margin-top: 169px !important;
+	margin-left: 55px !important;
+}
 
+.sosc{
+	color: #000 !important;
+}
+
+.sociall{
+	color: #000 !important;
+}
+
+.social h2 a{
+	color: #000 !important;
+}
 
 .login_box{
     background: #f32d27; /* Old browsers */
@@ -217,14 +277,16 @@ box-shadow:         0px 0px 8px 0px rgba(50, 50, 50, 0.54);
 }
 
 .ofix{
-	font-size: 133px !important;
+	font-size: 70px !important;
 	margin-top: -50px !important;
 	margin-bottom: -50px !important;
 }
 
 
 
-
+.okm li a{
+	margin-top: 14px !important;
+}
 
 /* ---------------------------------------------------------------------- PRELOADER STARTS ------------------ */
 
@@ -739,7 +801,21 @@ section#funfacts {
 	text-transform: uppercase;
 	margin-bottom: 14px;
 	color: #444444;
+
 }
+
+
+.designation a{
+
+	background-color: #000 !important;
+	color: #fff !important;
+	padding: 4px;
+	text-transform: none !important;
+
+	margin-bottom: 33px !important;
+}
+
+
 #team .contents .description {
 	font-family: 'Raleway', sans-serif;
 	font-size: 14px;
@@ -840,27 +916,25 @@ section#skills {
 
 
 .bobody {
-  background-color: #e74c3c;
+  background-color: #b61b1b;
   animation: bg-color 10s infinite;
   -webkit-animation: bg-color 10s infinite;
 }
 
 @-webkit-keyframes bg-color {
-  0% { background-color: #ff7f11; }
-  20% { background-color: #b61b1b; }
-  40% { background-color: #ff7f11; }
-  60% { background-color: #ff7f11; }
-  80% { background-color: #cc5d25; }
-  100% { background-color: #ff7f11; }
+  0% { background-color: #cc5d25; }
+  33% { background-color: #b61b1b; }
+  66% { background-color: #ff7f11; }
+  
+  100% { background-color: #cc5d25; }
 }
 
 @keyframes bg-color {
-  0% { background-color: #ff7f11; }
-  20% { background-color: #b61b1b; }
-  40% { background-color: #ff7f11; }
-  60% { background-color: #ff7f11; }
-  80% { background-color: #cc5d25; }
-  100% { background-color: #ff7f11; }
+   0% { background-color: #cc5d25; }
+  33% { background-color: #b61b1b; }
+  66% { background-color: #ff7f11; }
+  
+  100% { background-color: #cc5d25; }
 }
 
 
@@ -1029,7 +1103,7 @@ section#offer {
 	height: 50px;
 	border-radius: 25px;
 	text-align: center;
-	background-color: #00acec;
+	margin-left: -15px; 
 	color: #fff;
 	float: left;
 }
@@ -1074,7 +1148,7 @@ section#offer {
 	height: 50px;
 	border-radius: 25px;
 	text-align: center;
-	background-color: #00acec;
+	background-color: ;
 	color: #fff;
 	float: right;
 }
@@ -1591,14 +1665,14 @@ section#quotes {
 }
 
 .quote33{
-	font-size: 50px;
+	font-size: 40px;
 	line-height: 45px;
 	font-weight: 600;
 }
 
 .quote33 span{
-	font-size: 66px !important;
-	color: red;
+	font-size: 48px !important;
+	color: #d6d4d8 !important;
 }
 
 .name{
@@ -2566,7 +2640,7 @@ section.parallax-1, section.parallax-2, section.parallax-3, section.parallax-4, 
 .parallax-1 {
 	color: white;
 	background-attachment: fixed;
-	background-image: url(../images/parallax/1.jpg);
+	background-image: url(../images/parallax/stadium.jpg);
 	background-repeat: repeat-y;
 	background-position: 50% 0;
 	background-size: cover;
@@ -2574,7 +2648,7 @@ section.parallax-1, section.parallax-2, section.parallax-3, section.parallax-4, 
 .parallax-2 {
 	color: white;
 	background-attachment: fixed;
-	background-image: url(../images/parallax/2.jpg);
+	background-image: url(../images/parallax/totoni.jpg);
 	background-repeat: repeat-y;
 	background-position: 50% 0;
 	background-size: cover;
@@ -2582,7 +2656,7 @@ section.parallax-1, section.parallax-2, section.parallax-3, section.parallax-4, 
 .parallax-3 {
 	color: white;
 	background-attachment: fixed;
-	background-image: url(../images/parallax/3.jpg);
+	background-image: url(../images/parallax/stadium.jpg);
 	background-repeat: repeat-y;
 	background-position: 50% 0;
 	background-size: cover;
@@ -2590,7 +2664,7 @@ section.parallax-1, section.parallax-2, section.parallax-3, section.parallax-4, 
 .parallax-4 {
 	color: white;
 	background-attachment: fixed;
-	background-image: url(../images/parallax/4.jpg);
+	background-image: url(../images/parallax/totoni.jpg);
 	background-repeat: repeat-y;
 	background-position: 50% 0;
 	background-size: cover;
@@ -2598,7 +2672,7 @@ section.parallax-1, section.parallax-2, section.parallax-3, section.parallax-4, 
 .parallax-5 {
 	color: white;
 	background-attachment: fixed;
-	background-image: url(../images/parallax/5.jpg);
+	background-image: url(../images/parallax/totoni.jpg);
 	background-repeat: repeat-y;
 	background-position: 50% 0;
 	background-size: cover;
@@ -2606,7 +2680,7 @@ section.parallax-1, section.parallax-2, section.parallax-3, section.parallax-4, 
 .parallax-6 {
 	color: white;
 	background-attachment: fixed;
-	background-image: url(../images/parallax/6.jpg);
+	background-image: url(../images/parallax/totoni.jpg);
 	background-repeat: repeat-y;
 	background-position: 50% 0;
 	background-size: cover;
@@ -2614,7 +2688,7 @@ section.parallax-1, section.parallax-2, section.parallax-3, section.parallax-4, 
 .parallax-7 {
 	color: white;
 	background-attachment: fixed;
-	background-image: url(../images/parallax/7.jpg);
+	background-image: url(../images/parallax/s.jpg);
 	background-repeat: repeat-y;
 	background-position: 50% 0;
 	background-size: cover;
@@ -2622,7 +2696,7 @@ section.parallax-1, section.parallax-2, section.parallax-3, section.parallax-4, 
 .parallax-8 {
 	color: white;
 	background-attachment: fixed;
-	background-image: url(../images/parallax/8.jpg);
+	background-image: url(../images/parallax/go.jpg);
 	background-repeat: repeat-y;
 	background-position: 50% 0;
 	background-size: cover;
