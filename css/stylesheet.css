@@ -2784,6 +2784,19 @@ section.parallax-1, section.parallax-2, section.parallax-3, section.parallax-4, 
 	background-position: 50% 0;
 	background-size: cover;
 }
+
+
+
+.parallax-tatt {
+	color: white;
+	background-attachment: fixed;
+	background-image: url(../images/parallax/tatt.jpg);
+	background-repeat: repeat-y;
+	background-position: 50% 0;
+	background-size: cover;
+}
+
+
 /* ---------------------------------------------------------------------- PARALLAX ENDS ------------------ */
 
 /* ---------------------------------------------------------------------- MAGNIFIC POPUP STARTS ------------------ */
