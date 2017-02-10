@@ -448,7 +448,7 @@ section {
 .top-cut-white {
 	border-left: 20px solid transparent;
 	border-right: 20px solid transparent;
-	border-top: 20px solid #fff;
+	border-top: 0px solid #fff;
 	padding-top: 80px;
 }
 .bottom-cut-white {
@@ -490,6 +490,15 @@ section {
 
 
 /* ---------------------------------------------------------------------- SLIDER STARTS ------------------ */
+
+
+
+
+.sun{
+	font-size: 3em !important;
+}
+
+
 
 section#slider {
 	padding-top: 0px!important;
@@ -661,7 +670,7 @@ section#welcome {
 }
 #welcome {
 	padding-bottom: 0px;
-	background-color: #00acec;
+	background-color: #E83687;
 	color: #fff;
 }
 #welcome .header h2 {
@@ -2129,15 +2138,15 @@ section#testimonials {
 }
 #pricing .price-box {
 	text-align: center;
-	background-color: #aaa;
+	background-color: #592E45;
 	color: #fff;
 	margin-top: 15px;
 	margin-bottom: 15px;
-	border-radius: 10px;
+	border-radius: 0px;
 	padding-bottom: 10px;
 }
 #pricing .pro {
-	background-color: #00acec;
+	background-color: #592E45;
 }
 #pricing .price-box .header {
 	font-family: 'Raleway', sans-serif;
@@ -2336,6 +2345,16 @@ section#social-icons {
 /* ---------------------------------------------------------------------- SOCIAL ICONS ENDS ------------------ */
 
 /* ---------------------------------------------------------------------- CONTACT US STARTS ------------------ */
+
+
+.pinky{
+	background-color: #C92D74 !important;
+}
+
+.pinky2{
+	background-color: #E83687 !important;
+}
+
 
 section#contact {
 	padding-top: 0px;

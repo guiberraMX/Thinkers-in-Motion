@@ -18,7 +18,7 @@
 	color: #00acec;
 }
 #welcome {
-	background-color: #00acec;
+	background-color: #E83687;
 	color: #fff;
 }
 section#welcome .buttons a {
@@ -82,10 +82,14 @@ section#welcome .buttons a:hover {
 	color: #00acec;
 }
 #pricing .pro {
-	background-color: #00acec;
+	background-color: #161415;
 }
 #pricing .price-box .bullets .signup a:hover {
 	background-color: #00acec;
+}
+
+.price-box2{
+	background-color: #592E45 !important;
 }
 #social-icons .social .icon:hover {
 	background-color: #00acec;
