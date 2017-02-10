@@ -2790,7 +2790,7 @@ section.parallax-1, section.parallax-2, section.parallax-3, section.parallax-4, 
 .parallax-tatt {
 	color: white;
 	background-attachment: fixed;
-	background-image: url(../images/parallax/tatt.jpg);
+	background-image: url(../images/parallax/bn.jpg);
 	background-repeat: repeat-y;
 	background-position: 50% 0;
 	background-size: cover;
