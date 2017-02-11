@@ -428,7 +428,7 @@ section {
 }
 .header .description {
 	font-family: 'Raleway', sans-serif;
-	font-size: 18px;
+	font-size: 22px;
 	font-weight: 400;
 	line-height: 26px;
 }
@@ -1280,7 +1280,7 @@ section#responsive {
 }
 #responsive .contents .description-1 {
 	font-family: 'Raleway', sans-serif;
-	font-size: 20px;
+	font-size: 23px;
 	font-weight: 500;
 	margin-bottom: 30px;
 }
@@ -2248,13 +2248,21 @@ section#testimonials {
 	transition: all 0.3s;
 }
 #pricing .price-box .bullets .signup a:hover {
-	background-color: #00acec;
-	color: #fff;
+	background-color: #FF007F !important;
+	color: #000;
 	text-decoration: none;
 }
 /* ---------------------------------------------------------------------- PRICING ENDS ------------------ */
 
 /* ---------------------------------------------------------------------- CLIENTS STARTS ------------------ */
+
+.pinky666{
+	color: #FF007F !important;
+}
+
+.lusty{
+	color: #000 !important;
+}
 
 #clients row {
 	text-align: center!important;
