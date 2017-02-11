@@ -111,12 +111,12 @@ section#welcome .buttons a:hover {
 	background-color: #00acec;
 }
 .buttons a {
-	background-color: #00acec;
-	border: 2px solid #00acec;
+	background-color: #C92D74;
+	border: 2px solid #E83687;
 }
 .buttons a:hover {
-	color: #00acec;
-	border: 2px solid #00acec;
+	color: #FF007F;
+	border: 2px solid #FF007F;
 }
 .readmore a {
 	background-color: #00acec;

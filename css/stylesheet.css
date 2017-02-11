@@ -2188,7 +2188,7 @@ section#testimonials {
 #pricing .price-box .bullets {
 	background-color: #fff;
 	color: #000;
-	border-radius: 10px;
+	border-radius: 0px;
 	margin-left: 10px;
 	margin-right: 10px;
 	margin-top: 10px;
@@ -2242,7 +2242,7 @@ section#testimonials {
 	padding-right: 20px;
 	padding-bottom: 10px;
 	padding-left: 20px;
-	border-radius: 4px;
+	border-radius: 0px;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	transition: all 0.3s;
@@ -2736,7 +2736,7 @@ section#videos {
 
 /* ---------------------------------------------------------------------- PARALLAX STARTS ------------------ */
 
-section.parallax-1, section.parallax-2, section.parallax-3, section.parallax-4, section.parallax-5, section.parallax-6, section.parallax-7, section.parallax-8 {
+section.parallax-1, section.parallax-2, section.parallax-3, section.parallax-4, section.parallax-social, section.parallax-5, section.parallax-6, section.parallax-7, section.parallax-8 {
 	padding-bottom: 0px;
 }
 .parallax-1 {
@@ -2771,6 +2771,19 @@ section.parallax-1, section.parallax-2, section.parallax-3, section.parallax-4, 
 	background-position: 50% 0;
 	background-size: cover;
 }
+
+
+.parallax-social {
+	color: white;
+	background-attachment: fixed;
+	background-image: url(../images/parallax/sm.png);
+	background-repeat: repeat-y;
+	background-position: 50% 0;
+	background-size: cover;
+}
+
+
+
 .parallax-5 {
 	color: white;
 	background-attachment: fixed;
@@ -2813,6 +2826,16 @@ section.parallax-1, section.parallax-2, section.parallax-3, section.parallax-4, 
 	background-repeat: repeat-y;
 	background-position: 50% 0;
 	background-size: cover;
+}
+
+
+
+.proximamente{
+	font-size: 3em !important;
+}
+
+.precio{
+	color: #fff !important;
 }
 
 
