@@ -52,10 +52,16 @@ body {
 }
 
 
+.t1{
+	letter-spacing: -100px !important;
+}
 
 
-
-
+.pinkysdream{
+	font-size: 2.1em !important;
+	line-height: 1em !important;
+	text-align: justify !important;
+}
 
 
 
@@ -2995,6 +3001,10 @@ section.parallax-1, section.parallax-2, section.parallax-3, section.parallax-4, 
 	background-repeat: repeat;
 }
 
+.logototote a img{
+	width: 70% !important;
+}
+
 /* ---------------------------------------------------------------------- BACKGROUND ENDS ------------------ */
 
 /* ---------------------------------------------------------------------- MEDIA STARTS ------------------ */
@@ -3010,6 +3020,9 @@ section.parallax-1, section.parallax-2, section.parallax-3, section.parallax-4, 
 .hidemobile {
 	display: none;
 }
+
+
+
 }
  @media (max-width:992px) {
 .nav>li>a {
