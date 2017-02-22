@@ -433,7 +433,7 @@ section {
 	font-family: 'Montserrat', sans-serif!important;
 	font-size: 66px;
 	font-weight: 900;
-	letter-spacing: -5px;
+	letter-spacing: -6px !important;
 	line-height: 1;
 	margin-bottom: 10px;
 }
